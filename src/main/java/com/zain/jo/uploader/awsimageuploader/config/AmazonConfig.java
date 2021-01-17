@@ -16,7 +16,7 @@ public class AmazonConfig {
     public AmazonS3 s3(){
         // the cridential can be gain through aws portal
         AWSCredentials awsCredentials =
-                new BasicAWSCredentials("AKIAJSQDYJVBARJJOSBA", "EQxsOZ9zniyM8xfKiECYWZpsw+B/SPYMw7CL0T/O");
+                new BasicAWSCredentials("key", "access");
 
         return AmazonS3ClientBuilder
                 .standard()
